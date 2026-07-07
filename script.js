@@ -1,7 +1,6 @@
 const breakpointMedium = 768;
 const breakpointMax = 1200;
 
-// Workaround for inconsistent height of mobile browsers
 calculateHeight = () => {
   const container = document.querySelector('.container');
 
@@ -12,5 +11,4 @@ calculateHeight = () => {
   initSnow();
 }
 
-// Call function
 calculateHeight();
